@@ -5,3 +5,49 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content_box {
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 4px 4px 4px #D6D6D6;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-family: "Boogaloo", sans-serif;
+	font-size: 36px;
+	color: #116189;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 120%;
+	font-style: italic;
+}
+
+.header img, .body img {
+	float: left;
+	padding-bottom: 15px;
+}
+
+nav {
+	clear: right;
+	background-color: #D74710;
+
+}
+
+
+
+
